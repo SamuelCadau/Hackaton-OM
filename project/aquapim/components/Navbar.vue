@@ -32,11 +32,7 @@
 
 .nav{
   font-family: "Poppins-Medium";
-  color:"white";
 }
 
-#link1{
-    color:"white" !important;
-}
 
 </style>
