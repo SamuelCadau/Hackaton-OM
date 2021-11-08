@@ -1,5 +1,10 @@
 <template>
-  <Tutorial/>
+  <div>
+    <Zoneflot />
+    <Equipe />
+   
+
+  </div>
 </template>
 
 <script>
