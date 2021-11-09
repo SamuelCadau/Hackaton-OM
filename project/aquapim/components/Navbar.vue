@@ -11,7 +11,7 @@
       </template>  
       </b-navbar-toggle>
       <b-collapse id="nav-menu" is-nav>
-        <b-navbar-nav class="nav mx-auto" right>
+        <b-navbar-nav class="nav ml-auto" right>
           <b-nav-item id="link1">Notre concept</b-nav-item>
           <b-nav-item>Nos partenaires</b-nav-item>
           <b-nav-item>Présentation de l'aquaponie</b-nav-item>

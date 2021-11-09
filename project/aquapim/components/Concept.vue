@@ -36,7 +36,7 @@
 
 @media all and (min-width: 768px) {
   #title {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Poppins-bold';
     color: #3e602f;
   }

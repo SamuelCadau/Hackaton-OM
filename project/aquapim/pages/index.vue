@@ -1,15 +1,16 @@
 <template>
   <div>
-    <Navbar/>
+    <Navbar />
 
     <Zoneflot />
+
+    <Concept />
+    <Partenaire />
+
     <Equipe />
+    <Contact />
 
-    <Concept/>
-    <Partenaire/>
-    <Contact/>
-
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
