@@ -51,7 +51,7 @@
 
       <hr class="solid" />
       <b-row>
-        <small class="mx-auto mb-2">Copyright Anquapim - 2021</small>
+        <small class="mx-auto mb-2">Copyright AQUAPIM - 2021</small>
       </b-row>
     </b-container>
   </div>
