@@ -23,7 +23,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 @font-face{
     font-family: "Poppins-Medium";
     src:local("Poppins-Medium"), url(../static/Poppins-Medium.ttf) format("truetype");

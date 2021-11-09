@@ -5,7 +5,7 @@
       <p id="title">CONTACT</p>
     </div>
 
-    <div id="contact" class="col-12 d-flex flex-column justify-content-center mt-5">
+    <div id="contact" class="col-12 d-flex flex-column justify-content-center mt-2">
         <div class="text-center col-12">
           <p id="paraContact" class="col-12 mt-5">Si vous souhaitez être informés de nos actualités, conseils bien-être et nouveaux produits, nous vous invitons à renseigner votre adresse e-mail. <br>
             Nous nous engageons à ne jamais communiquer vos données personnelles.</p>
@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @font-face {
   font-family: 'Poppins-bold';
   src: local('Poppins-bold'),
@@ -68,7 +68,7 @@ export default {
     padding-bottom: 0;
   }
   #margtop {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 }
 
@@ -79,7 +79,7 @@ export default {
     color: #3e602f;
   }
   #margtop {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 }
 
@@ -96,10 +96,6 @@ export default {
 
 #contact {
   background-color: #ece9ea;
-}
-
-#margtop {
-  margin-top: 15%;
 }
 
 </style>

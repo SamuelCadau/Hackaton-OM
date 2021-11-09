@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5">
+  <div class="mt-5" id="margtop">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <div class="col-12 d-flex justify-content-center mt-4">
       <!-- MODIFICATION TITRE -->
@@ -42,5 +42,27 @@ h3 {
   font-family: 'Poppins-Light';
 
   border-bottom: 3px solid #3e602f;
+}
+
+@media all and (min-width: 319px) {
+  #title {
+    font-size: 8vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+  #margtop {
+  margin-top: 15% !important;
+}
+}
+
+@media all and (min-width: 768px) {
+  #title {
+    font-size: 4vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+  #margtop {
+  margin-top: 10% !important;
+}
 }
 </style>

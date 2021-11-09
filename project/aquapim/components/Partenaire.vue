@@ -5,7 +5,7 @@
       <p id="title">NOS PARTENAIRES</p>
     </div>
 
-    <div class="col-12 d-flex justify-content-center mt-4 pb-3">
+    <div class="col-12 d-flex justify-content-center mt-2 pb-3">
       <b-card-group deck>
         <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
         <b-card
@@ -62,7 +62,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 @font-face {
   font-family: 'Poppins-bold';
   src: local('Poppins-bold'),
@@ -108,7 +108,7 @@ p {
   }
 
   #margtop {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 }
 
@@ -118,9 +118,8 @@ p {
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-
   #margtop {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 }
 </style>

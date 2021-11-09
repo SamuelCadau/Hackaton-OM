@@ -5,7 +5,7 @@
         <p id="title">NOTRE CONCEPT</p>
       </div>
 
-      <div class="col-10 offset-1 d-flex justify-content-center mt-5">
+      <div class="col-10 offset-1 d-flex justify-content-center mt-2">
         <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
         <img class="img-fluid" src="../static/Concept.png" >
       </div>
@@ -13,7 +13,7 @@
 
 </template>
 
-<style>
+<style scoped>
 
 @font-face {
     font-family: "Poppins-bold";
@@ -30,7 +30,7 @@
   }
 
   #margtop {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 }
 
@@ -40,9 +40,8 @@
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-
   #margtop {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 }
 

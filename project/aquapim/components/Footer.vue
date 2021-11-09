@@ -15,7 +15,7 @@
 </template>
 
 
-<style>
+<style scoped>
 #footer {
   
   background-color: rgb(4, 116, 4);
