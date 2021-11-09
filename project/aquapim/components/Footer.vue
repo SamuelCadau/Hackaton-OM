@@ -17,7 +17,7 @@
 
 <style>
 #footer {
-  position: absolute;
+  
   background-color: rgb(4, 116, 4);
   bottom:0;
   color:white;
