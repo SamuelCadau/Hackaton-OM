@@ -1,16 +1,21 @@
 <template>
-  <!-- <div>
-    <b-row  align-h="center">
-      <b-col  id="imgZoneFlot"> </b-col>
-      <b-col cols="9" align-self="center"  class="text-center ml-auto m-5" id="titre">
-        <h1 style="color: white;">
-          "IL NE S'AGIT PLUS SEULEMENT D'OFFRIR DE L'ÉMERVEILLEMENT MAIS DES
-          SOLUTIONS CONCRÈTES À CEUX QUI VEULENT CHANGER LEUR MODE DE VIE"
+  <div>
+    <b-row align-h="center">
+      <b-col id="imgZoneFlot"> </b-col>
+      <b-col
+        cols="7"
+        align-self="center"
+        class="text-center ml-auto m-5"
+        id="titre"
+      >
+        <h1 id="h1Div" class="p-4">
+          "Il ne s'agit plus seulement d'offrir de l'émerveillement mais des
+          solutions concrètes à ceux qui veulent changer leur mode de vie."
         </h1>
       </b-col>
     </b-row>
-  </div> -->
-  <div class="p-5" id="firstDiv">
+  </div>
+  <!-- <div class="p-5" id="firstDiv">
     <b-container>
       <b-row>
         <b-col md="5" sm="12" cols="12" id="imgZoneFlot">
@@ -33,7 +38,7 @@
         </b-col>
       </b-row>
     </b-container>
-  </div>
+  </div> -->
 </template>
 
 <script>
@@ -62,28 +67,35 @@ export default {}
 #firstDiv {
   background-color: #3e602f;
 }
+#h1Div {
+  color: white;
+  font-size: 2.2rem;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+}
 
-/* #titre {
+#titre {
   position: absolute;
   z-index: 1000;
 
   border-radius: 10px;
-} */
-
-#titre {
-  font-family: "Poppins-Medium";
-  border-bottom: 3px solid #a0ca92;
-  border-left: 2px solid #a0ca92;
-  opacity: 0.9;
 }
 
-/*#imgZoneFlot {
+#titre {
+  font-family: 'Poppins-Medium';
+  /* border-bottom: 3px solid #a0ca92;
+  border-left: 2px solid #a0ca92; */
+  /*   background-color: rgba(160, 202, 146, 0.9);
+ */ /* background-color: rgba(255, 255, 255, 0.8); */
+}
 
-   height: 900px;
+#imgZoneFlot {
+  background-image: url('../static/zoneflot.jpg');
+  height: 900px;
   max-height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;  
-}*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>

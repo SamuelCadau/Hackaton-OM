@@ -1,7 +1,7 @@
 <template>
   <div class="mt-5" id="margtop">
     <div class="text-center">
-      <p id="title">Galerie</p>
+      <p id="title">GALERIE</p>
     </div>
     <b-container>
       <b-row class="mt-5 mb-3">
