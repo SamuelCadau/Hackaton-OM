@@ -6,25 +6,13 @@
       <p id="title">NOS PARTENAIRES</p>
     </div>
 
-    <div
-      id="cardborder"
-      class="
-        col-12
-        d-flex
-        justify-content-center justify-content-md-start
-        mt-2
-        pb-3
-      "
-    >
-      <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-      <div class="row"
-      data-aos="slide-left"
-      data-aos-duration="1500"
-      >
+    <div id="cardborder" class="col-12 d-flex justify-content-center  justify-content-md-start pb-3">
+        <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+        <div class="row" data-aos="slide-left"
+      data-aos-duration="1500">
         <b-card
-          title="Ecole 1"
-          id="titlecard"
-          img-src="../static/logo.png"
+          title="Epitech" id="titlecard"
+          img-src="../static/logo_epitech.png"
           img-alt="Image"
           img-top
           class="text-center col-sm-12 col-md-4 col-lg-4"
@@ -35,34 +23,17 @@
             </div>
           </template>
         </b-card>
-        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
-          consequuntur omnis minima quaerat vero dignissimos odio labore
-          temporibus, quos facere iusto debitis odit?
+        <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center" id="desccard">
+            À travers nos cursus de formation en informatique ou axés digital, les projets innovants de nos étudiant·e·s, les start-ups et entreprises de nos Ancien·ne·s, nos relations avec tout l’univers numérique, l’ensemble de nos initiatives et notre pôle de recherche, Epitech est aujourd’hui au cœur de l’écosystème Tech, de l’énergie et des acteur·rice·s qui font et feront le monde.
         </b-card-text>
       </div>
     </div>
-    <div
-      id="cardborder"
-      class="
-        col-12
-        d-flex
-        justify-content-center justify-content-md-end
-        mt-4
-        pb-3
-      "
-    >
+    <div id="cardborder" class="col-12 d-flex  justify-content-center justify-content-md-end   pb-3">
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-      <div class="row"
-      data-aos="slide-right"
-      data-aos-duration="1500"
-      >
-        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
-          consequuntur omnis minima quaerat vero dignissimos odio labore
-          temporibus, quos facere iusto debitis odit?
+      <div class="row" data-aos="slide-right"
+      data-aos-duration="1500">
+      <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center" id="desccard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
         </b-card-text>
         <b-card
           title="Ecole 2"
@@ -81,16 +52,7 @@
       </div>
     </div>
 
-    <div
-      id="cardborder"
-      class="
-        col-12
-        d-flex
-        justify-content-center justify-content-md-start
-        mt-4
-        pb-3
-      "
-    >
+    <div id="cardborder" class="col-12 d-flex  justify-content-center  justify-content-md-start  pb-3">
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
       <div class="row"
       data-aos="slide-left"
@@ -110,11 +72,8 @@
             </div>
           </template>
         </b-card>
-        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
-          consequuntur omnis minima quaerat vero dignissimos odio labore
-          temporibus, quos facere iusto debitis odit?
+        <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center" id="desccard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
         </b-card-text>
       </div>
     </div>
@@ -145,11 +104,10 @@ export default {
 
 #titlecard {
   font-family: 'Poppins-bold';
+  padding-right: 0px;
+    padding-left: 0px;
 }
 
-#desccard {
-  font-family: 'Poppins-light';
-}
 
 a {
   font-family: 'Poppins-light';
@@ -186,6 +144,10 @@ p {
     margin-bottom: 100px;
     text-align: center;
   }
+  #desccard {
+  font-family: 'Poppins-light';
+  font-size: 5vw;
+}
 }
 
 @media all and (min-width: 768px) {
@@ -195,7 +157,16 @@ p {
     color: #3e602f;
   }
   #partenaires {
-    margin-top: 10%;
-  }
+  margin-top: 10%;
 }
+#desccard {
+  font-family: 'Poppins-light';
+  font-size: 1.5vw;
+}
+}
+
+#cardborder {
+    margin-top: 80px;
+  }
+
 </style>
