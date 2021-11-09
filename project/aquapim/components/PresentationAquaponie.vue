@@ -5,7 +5,7 @@
         </b-row>
 
         <b-row> 
-            <img src="../static/schema.gif" width="70" height="38" />
+            <img class="mx-auto" src="../static/schema.gif" width="50%" />
         </b-row>
         
     </b-container>
