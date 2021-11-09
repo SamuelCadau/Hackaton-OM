@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5" id="equipe">
+  <div data-aos="fade-left" data-aos-duration="3000" class="mt-5" id="equipe">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     
     <b-container>
@@ -8,18 +8,18 @@
       <p id="title">L'EQUIPE D'AQUAPIM</p>
     </div>
       <b-row class="justify-content-around">
-        <div class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+        <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
           <h3 class="p-3">Theo</h3>
 
           <b-img fluid rounded src="../static/pdp.jpg" class="p-3"></b-img>
         </div>
 
-        <div class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+        <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
           <h3 class="p-3">Guillaume</h3>
 
           <b-img fluid rounded src="../static/pdp2.jpg" class="p-3"></b-img>
         </div>
-        <div class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+        <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
           <h3 class="p-3">Domitille</h3>
 
           <b-img fluid rounded src="../static/pdp3.jpg" class="p-3"></b-img>
@@ -31,11 +31,11 @@
 
 
 <script>
-AOS.init()
-</script>
+import aosMixin from '~/mixins/aos.js'
 
-<script>
-export default {}
+export default {
+  mixins: [aosMixin],
+}
 </script>
 
 <style scoped>

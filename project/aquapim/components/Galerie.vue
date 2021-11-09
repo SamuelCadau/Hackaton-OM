@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5" id="margtop">
+  <div class="mt-5" data-aos="zoom-in-up" data-aos-duration="2350" id="galerie">
     <div class="text-center">
       <p id="title">GALERIE</p>
     </div>
@@ -44,7 +44,10 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos.js'
+
 export default {
+  mixins: [aosMixin],
 }
 </script>
 
@@ -56,7 +59,7 @@ export default {
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-  #margtop {
+  #galerie {
   margin-top: 15% !important;
 }
 }
@@ -67,7 +70,7 @@ export default {
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-  #margtop {
+  #galerie {
   margin-top: 10% !important;
 }
 }

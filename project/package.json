@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@nuxtjs/svg-sprite": "^0.5.2",
+    "aos": "^3.0.0-beta.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
