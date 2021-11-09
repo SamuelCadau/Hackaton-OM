@@ -1,8 +1,8 @@
 <template>
 <div id="aquaponie">
-  <b-container>
-    <b-row class="mt-3">
-      <h1 class="mx-auto">L'AQUAPONIE</h1>
+  <b-container class="col-12">
+    <b-row class="d-flex justify-content-center mt-3">
+      <p id="title" class="">L'AQUAPONIE</p>
     </b-row>
 
     <b-row class="d-flex justify-content-center schema mt-5">
@@ -48,7 +48,7 @@
     color: #3e602f;
   }
 
-  #margtop {
+  #aquaponie {
   margin-top: 20%;
 }
 }
@@ -59,7 +59,7 @@
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-  #margtop {
+  #aquaponie {
   margin-top: 10%;
 }
 }

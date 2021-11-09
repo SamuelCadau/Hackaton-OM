@@ -5,7 +5,7 @@
       <p id="title">CONTACT</p>
     </div>
 
-    <div id="contact" class="col-12 d-flex flex-column justify-content-center mt-2">
+    <div id="back" class="col-12 d-flex flex-column justify-content-center mt-2">
         <div class="text-center col-12">
           <p id="paraContact" class="col-12 mt-5">Si vous souhaitez être informés de nos actualités, conseils bien-être et nouveaux produits, nous vous invitons à renseigner votre adresse e-mail. <br>
             Nous nous engageons à ne jamais communiquer vos données personnelles.</p>
@@ -94,7 +94,7 @@ export default {
   font-family: 'Poppins-LightItalic';
 }
 
-#contact {
+#back {
   background-color: #ece9ea;
 }
 
