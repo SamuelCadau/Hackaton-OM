@@ -41,6 +41,11 @@ export default {}
 </script>
 
 <style>
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: local('Poppins-Medium'),
+    url(../static/Poppins-Medium.ttf) format('truetype');
+}
 @media screen and (max-width: 425px) {
   #titre {
     margin-top: 30px;
@@ -57,6 +62,7 @@ export default {}
 #firstDiv {
   background-color: #3e602f;
 }
+
 /* #titre {
   position: absolute;
   z-index: 1000;
@@ -65,6 +71,7 @@ export default {}
 } */
 
 #titre {
+  font-family: "Poppins-Medium";
   border-bottom: 3px solid #a0ca92;
   border-left: 2px solid #a0ca92;
   opacity: 0.9;
@@ -79,6 +86,4 @@ export default {}
   background-repeat: no-repeat; 
   background-size: cover;  
 }*/
-
-
 </style>

@@ -2,7 +2,6 @@
   <div>
     <Zoneflot />
     <Equipe />
-   
 
   </div>
 </template>
