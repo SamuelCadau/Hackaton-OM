@@ -1,5 +1,6 @@
 <template>
-    <div data-aos="flip-up" data-aos-duration="1500" class="col-12" id="concept">
+<div id="concept">
+    <div data-aos="flip-up" data-aos-duration="1500" class="col-12" id="">
       <div class="col-12 d-flex justify-content-center mt-4 pb-3">
         <!-- MODIFICATION TITRE -->
         <p id="title">NOTRE CONCEPT</p>
@@ -10,7 +11,7 @@
         <img class="img-fluid" src="../static/Concept.png" >
       </div>
     </div>
-
+</div>
 </template>
 
 

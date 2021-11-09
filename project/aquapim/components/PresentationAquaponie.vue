@@ -1,5 +1,6 @@
 <template>
-<div id="aquaponie" data-aos="fade-up" data-aos-duration="2000">
+<div id="aquaponie">
+<div  data-aos="fade-up" data-aos-duration="2000">
   <b-container class="col-12">
     <b-row class="d-flex justify-content-center mt-3">
       <p id="title" class="">L'AQUAPONIE</p>
@@ -36,6 +37,7 @@
       </b-col>
     </b-row>
   </b-container>
+  </div>
   </div>
 </template>
 

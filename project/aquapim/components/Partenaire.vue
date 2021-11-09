@@ -1,5 +1,6 @@
 <template>
-  <div data-aos="zoom-in" data-aos-duration="2000" class="col-12" id="partenaires">
+  <div id="partenaires">²²
+  <div data-aos="zoom-in" data-aos-duration="2000" class="col-12">
     <div class="col-12 d-flex justify-content-center mt-4 pb-3">
       <!-- MODIFICATION TITRE -->
       <p id="title">NOS PARTENAIRES</p>
@@ -117,6 +118,7 @@
         </b-card-text>
       </div>
     </div>
+  </div>
   </div>
 </template>
 

@@ -1,5 +1,6 @@
 <template>
-  <div data-aos="fade-left" data-aos-duration="3000" class="mt-5" id="equipe">
+<div id="equipe">
+  <div data-aos="fade-left" data-aos-duration="3000" class="mt-5">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     
     <b-container>
@@ -26,6 +27,7 @@
         </div>
       </b-row>
     </b-container>
+  </div>
   </div>
 </template>
 
