@@ -5,13 +5,13 @@
     </div>
     <b-container>
       <b-row class="mt-5 mb-3">
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/2.jpg"></b-img>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/4.jpg"></b-img>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/5.jpg"></b-img>
         </div>
       </b-row>
@@ -29,13 +29,13 @@
         <b-carousel-slide img-src="../static/1.jpg"></b-carousel-slide>
       </b-carousel>
       <b-row class="mt-3 mb-3">
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/3.jpg"></b-img>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/9.jpg"></b-img>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
           <b-img rounded fluid src="../static/7.jpg"></b-img>
         </div>
       </b-row>

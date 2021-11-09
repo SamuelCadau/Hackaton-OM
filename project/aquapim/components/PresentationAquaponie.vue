@@ -5,9 +5,9 @@
       <p id="title" class="">L'AQUAPONIE</p>
     </b-row>
 
-    <b-row class="d-flex justify-content-center schema mt-5">
-      <b-col class=" mt-5">
-        <div class="col1">
+    <b-row class="d-flex justify-content-center schema mt-5 ">
+      <b-col class=" col-md-4">
+        <div class="col1 col-12">
           <span class="ml-2">0 changement d'eau </span>
           <br />
           <span class="ml-2">0 intrant chimique </span>
@@ -16,7 +16,7 @@
         </div>
       </b-col>
 
-      <b-col class="">
+      <b-col class="col-12 col-md-4">
         <b-img
           id="schema-gif"
           class="mx-auto"
@@ -25,7 +25,7 @@
         />
       </b-col>
 
-      <b-col class="d-flex align-items-end mt-5">
+      <b-col class="d-flex align-items-end col-md-4">
         <div class="col2">
           <span> Parlement Européen: </span>
           <br />

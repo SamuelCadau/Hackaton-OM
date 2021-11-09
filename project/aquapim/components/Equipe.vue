@@ -1,11 +1,12 @@
 <template>
   <div class="mt-5" id="equipe">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <div class="col-12 d-flex justify-content-center mt-4">
+    
+    <b-container>
+      <div class="col-12 mt-4">
       <!-- MODIFICATION TITRE -->
       <p id="title">L'EQUIPE D'AQUAPIM</p>
     </div>
-    <b-container>
       <b-row class="justify-content-around">
         <div class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
           <h3 class="p-3">Theo</h3>
