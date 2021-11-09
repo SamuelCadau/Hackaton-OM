@@ -3,15 +3,18 @@
     <b-row align-h="center">
       <b-col id="imgZoneFlot"> </b-col>
       <b-col
-        cols="7"
+        xl="7"
+        lg="10"
+        md="12"
+        cols="12"
         align-self="center"
-        class="text-center ml-auto m-5"
+        class="text-center m-5"
         id="titre"
       >
-        <h1 id="h1Div" class="p-4">
+        <p >
           "Il ne s'agit plus seulement d'offrir de l'émerveillement mais des
           solutions concrètes à ceux qui veulent changer leur mode de vie."
-        </h1>
+        </p>
       </b-col>
     </b-row>
   </div>
@@ -51,43 +54,69 @@ export default {}
   src: local('Poppins-Medium'),
     url(../static/Poppins-Medium.ttf) format('truetype');
 }
-@media screen and (max-width: 425px) {
-  #titre {
+/* @media screen and (max-width: 425px) {
+ #titre {
     margin-top: 30px;
     border-bottom: none !important;
     border-left: none !important;
     border-top: 3px solid #a0ca92;
     text-align: left !important;
-  }
+  } 
   #titre > h4 {
     padding-top: 30px;
   }
-}
+} */
 
 #firstDiv {
   background-color: #3e602f;
 }
-#h1Div {
+
+@media all and (min-width: 319px) {
+  #titre {
+    font-size: 8vw ;
+    font-family: 'Poppins-bold';
+
+    color: white;
+
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+  #titre {
+    font-size: 3vw;
+    font-family: 'Poppins-bold';
+
+    color: white;
+
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+  }
+}
+
+
+
+/* #h1Div {
   color: white;
-  font-size: 2.2rem;
+  
   backdrop-filter: blur(6px);
   border-radius: 20px;
-}
+} */
 
 #titre {
   position: absolute;
   z-index: 1000;
-
+  font-family: 'Poppins-Medium';
   border-radius: 10px;
 }
 
-#titre {
-  font-family: 'Poppins-Medium';
-  /* border-bottom: 3px solid #a0ca92;
-  border-left: 2px solid #a0ca92; */
-  /*   background-color: rgba(160, 202, 146, 0.9);
- */ /* background-color: rgba(255, 255, 255, 0.8); */
+#titre > p {
+  margin: 0;
 }
+
+
 
 #imgZoneFlot {
   background-image: url('../static/zoneflot.jpg');
