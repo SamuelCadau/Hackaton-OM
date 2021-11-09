@@ -25,9 +25,9 @@
         />
       </b-col>
 
-      <b-col class=" mt-5">
+      <b-col class="d-flex align-items-end mt-5">
         <div class="col2">
-          <span class="ml-2"> Parlement Européen: </span>
+          <span> Parlement Européen: </span>
           <br />
           <span >
             "Une des 10 technologies qui pourraient changer nos vies"

@@ -14,7 +14,7 @@
           <form method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwcGRhRycBq9cMukiUdkwcAOx9_8819C0hd5C4LKdg1FAhGlFJ0np9qNn3XTxqzQOpD7w/exec">
             <div class="input-group d-flex justify-content-center">
               <input class="col-6  form-control" style="height: 5vh" id="email" name="Email" type="email" placeholder="Email">
-              <button type="submit" style="height: 5vh" @click="reload()" class="btn btn-success">Success</button>
+              <button type="submit" style="height: 5vh" @click="reload()" class="btn btn-success ml-1">Success</button>
             </div>
           </form>
           <div class="col-12 mt-5 d-flex justify-content-center">
