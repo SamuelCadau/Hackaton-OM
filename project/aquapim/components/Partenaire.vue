@@ -30,7 +30,8 @@
     </div>
     <div id="cardborder" class="col-12 d-flex  justify-content-center justify-content-md-end   pb-3">
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-      <div class="row">
+      <div class="row" data-aos="slide-right"
+      data-aos-duration="1500">
       <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center" id="desccard">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
         </b-card-text>
