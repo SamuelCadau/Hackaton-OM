@@ -3,9 +3,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <b-container>
-      <b-row>
-        <b-col> </b-col>
-      </b-row>
       <b-row class="justify-content-around">
         <div class="text-center">
           <h3>Jacob</h3>

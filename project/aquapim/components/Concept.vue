@@ -5,7 +5,7 @@
         <p id="title">NOTRE CONCEPT</p>
       </div>
 
-      <div class="col-12 d-flex justify-content-center mt-5">
+      <div class="col-10 offset-1 d-flex justify-content-center mt-5">
         <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
         <img class="img-fluid" src="../static/Concept.png" >
       </div>

@@ -2,6 +2,10 @@
   <div>
     <Zoneflot />
     <Equipe />
+
+    <Concept/>
+    <Partenaire/>
+    <Contact/>
   </div>
 </template>
 
