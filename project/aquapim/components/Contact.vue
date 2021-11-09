@@ -17,6 +17,11 @@
               <button type="submit" style="height: 5vh" @click="reload()" class="btn btn-success">Success</button>
             </div>
           </form>
+          <div class="col-12 mt-5 d-flex justify-content-center">
+            <a href="https://www.linkedin.com/company/aquapim/"><b-icon class="text" icon="linkedin" style="height: 40px; width: 40px"/></a>
+            <a href="https://www.instagram.com/aqua.pim/"><b-icon class="ml-5" icon="instagram" style="height: 40px; width: 40px"/></a>
+            <a href="https://www.facebook.com/aqua.pim.3"><b-icon class="ml-5" icon="facebook" style="height: 40px; width: 40px"/></a>
+          </div>
         </div>
     </div>
   </div>
