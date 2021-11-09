@@ -5,59 +5,69 @@
       <p id="title">NOS PARTENAIRES</p>
     </div>
 
-    <div class="col-12 d-flex justify-content-center mt-2 pb-3">
-      <b-card-group deck>
+    <div id="cardborder" class="col-12 d-flex justify-content-center  justify-content-md-start mt-2 pb-3">
         <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+        <div class="row">
         <b-card
           title="Ecole 1" id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
+          class="text-center col-sm-12 col-md-4 col-lg-4"
         >
-          <b-card-text id="desccard">
-            Description
-          </b-card-text>
           <template #footer>
             <div class="text-center">
               <a href="#">Site</a>
             </div>
           </template>
         </b-card>
-        
-        <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+        </b-card-text>
+        </div>
+    </div>
+    <div id="cardborder" class="col-12 d-flex  justify-content-center justify-content-md-end  mt-4 pb-3">
+      <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+      <div class="row">
+      <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+        </b-card-text>
         <b-card
           title="Ecole 2" id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
+          class="text-center col-sm-12 col-md-4 col-lg-4"
         >
-          <b-card-text id="desccard">
-            Description
-          </b-card-text>
           <template #footer>
             <div class="text-center">
               <a href="#">Site</a>
             </div>
           </template>
         </b-card>
+      </div>
+    </div>
 
-        <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+    <div id="cardborder" class="col-12 d-flex  justify-content-center  justify-content-md-start  mt-4 pb-3">
+      <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+      <div class="row">
         <b-card
           title="Ecole 3" id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
+          class="text-center col-sm-12 col-md-4 col-lg-4"
         >
-          <b-card-text id="desccard">
-            Description
-          </b-card-text>
           <template #footer>
             <div class="text-center">
               <a href="#">Site</a>
             </div>
           </template>
         </b-card>
-      </b-card-group>
+        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+        </b-card-text>
+      </div>
     </div>
   </div>
 </template>
@@ -110,6 +120,14 @@ p {
   #partenaires {
   margin-top: 20%;
 }
+}
+
+@media all and (max-width: 426px) {
+  #cardborder {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 768px) {
