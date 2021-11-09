@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12" id="margtop">
+  <div class="col-12" id="partenaires">
     <div class="col-12 d-flex justify-content-center mt-4 pb-3">
       <!-- MODIFICATION TITRE -->
       <p id="title">NOS PARTENAIRES</p>
@@ -107,7 +107,7 @@ p {
     color: #3e602f;
   }
 
-  #margtop {
+  #partenaires {
   margin-top: 20%;
 }
 }
@@ -118,7 +118,7 @@ p {
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-  #margtop {
+  #partenaires {
   margin-top: 10%;
 }
 }

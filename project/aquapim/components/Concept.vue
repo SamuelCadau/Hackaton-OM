@@ -1,15 +1,16 @@
 <template>
-  <div class="col-12" id="margtop">
-    <div class="col-12 d-flex justify-content-center mt-4 pb-3">
-      <!-- MODIFICATION TITRE -->
-      <p id="title">NOTRE CONCEPT</p>
+    <div class="col-12" id="concept">
+      <div class="col-12 d-flex justify-content-center mt-4 pb-3">
+        <!-- MODIFICATION TITRE -->
+        <p id="title">NOTRE CONCEPT</p>
+      </div>
+
+      <div class="col-10 offset-1 d-flex justify-content-center mt-2">
+        <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
+        <img class="img-fluid" src="../static/Concept.png" >
+      </div>
     </div>
 
-    <div class="col-12 col-xl-10 offset-xl-1 d-flex justify-content-center mt-5">
-      <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
-      <img class="img-fluid" src="../static/Concept.png" />
-    </div>
-  </div>
 </template>
 
 <style scoped>
@@ -27,8 +28,8 @@
     color: #3e602f;
   }
 
-  #margtop {
-  margin-top: 15%;
+  #concept {
+  margin-top: 10%;
 }
 }
 
