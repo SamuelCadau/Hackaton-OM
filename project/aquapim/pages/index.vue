@@ -7,6 +7,8 @@
     <Concept />
     <Partenaire />
 
+    <PresentationAquaponie />
+
     <Equipe />
     <Contact />
 
