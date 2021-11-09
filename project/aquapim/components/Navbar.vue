@@ -16,8 +16,10 @@
           <b-nav-item href="#concept">Notre concept</b-nav-item>
           <b-nav-item href="#partenaires">Nos partenaires</b-nav-item>
           <b-nav-item href="#aquaponie" >Présentation de l'aquaponie</b-nav-item>
+          <b-nav-item href="#galerie">Galerie</b-nav-item>
           <b-nav-item href="#equipe">L'équipe</b-nav-item>
           <b-nav-item href="#contact">Nous rejoindre </b-nav-item>
+          
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

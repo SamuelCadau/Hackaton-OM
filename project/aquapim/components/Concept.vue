@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12" id="concept">
+    <div data-aos="flip-up" data-aos-duration="1500" class="col-12" id="concept">
       <div class="col-12 d-flex justify-content-center mt-4 pb-3">
         <!-- MODIFICATION TITRE -->
         <p id="title">NOTRE CONCEPT</p>
@@ -12,6 +12,17 @@
     </div>
 
 </template>
+
+
+<script>
+import aosMixin from '~/mixins/aos.js'
+
+export default {
+  mixins: [aosMixin],
+}
+</script>
+
+
 
 <style scoped>
 
