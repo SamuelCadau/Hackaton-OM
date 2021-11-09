@@ -12,8 +12,10 @@
         </div>
         <div class="align-self-center col-12 mt-4 mb-5">
           <form method="POST" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwcGRhRycBq9cMukiUdkwcAOx9_8819C0hd5C4LKdg1FAhGlFJ0np9qNn3XTxqzQOpD7w/exec">
-            <input class="col-6 offset-3" style="height: 5vh" id="email" name="Email" type="email" placeholder="Email">
-            <button type="submit" style="height: 5vh" @click="reload()" class="btn btn-success">Success</button>
+            <div class="input-group d-flex justify-content-center">
+              <input class="col-6  form-control" style="height: 5vh" id="email" name="Email" type="email" placeholder="Email">
+              <button type="submit" style="height: 5vh" @click="reload()" class="btn btn-success">Success</button>
+            </div>
           </form>
         </div>
     </div>
