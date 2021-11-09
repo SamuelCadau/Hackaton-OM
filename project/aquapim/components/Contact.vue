@@ -18,7 +18,7 @@
             </div>
           </form>
           <div class="col-12 mt-5 d-flex justify-content-center">
-            <a href="https://www.linkedin.com/company/aquapim/"><b-icon class="text" icon="linkedin" style="height: 40px; width: 40px"/></a>
+            <a href="https://www.linkedin.com/company/aquapim/"><b-icon class="" icon="linkedin" style="height: 40px; width: 40px"/></a>
             <a href="https://www.instagram.com/aqua.pim/"><b-icon class="ml-5" icon="instagram" style="height: 40px; width: 40px"/></a>
             <a href="https://www.facebook.com/aqua.pim.3"><b-icon class="ml-5" icon="facebook" style="height: 40px; width: 40px"/></a>
           </div>
@@ -74,7 +74,7 @@ export default {
 
 @media all and (min-width: 768px) {
   #title {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
@@ -96,6 +96,11 @@ export default {
 
 #contact {
   background-color: #ece9ea;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 </style>

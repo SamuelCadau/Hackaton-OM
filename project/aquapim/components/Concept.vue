@@ -16,11 +16,10 @@
 <style scoped>
 
 @font-face {
-    font-family: "Poppins-bold";
-    src: local("Poppins-bold"),     url(../static/font/Poppins-Bold.ttf) format("truetype");
+  font-family: 'Poppins-bold';
+  src: local('Poppins-bold'),
+    url(../static/font/Poppins-Bold.ttf) format('truetype');
 }
-
-
 
 @media all and (min-width: 319px) {
   #title {
@@ -44,5 +43,4 @@
   margin-top: 10%;
 }
 }
-
 </style>

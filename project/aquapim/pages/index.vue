@@ -3,10 +3,13 @@
     <Navbar />
 
     <Zoneflot />
-
+    
     <Concept />
     <Partenaire />
 
+    <PresentationAquaponie />
+
+    <Galerie />
     <Equipe />
     <Contact />
 

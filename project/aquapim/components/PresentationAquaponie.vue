@@ -5,8 +5,8 @@
       <h1 class="mx-auto">L'AQUAPONIE</h1>
     </b-row>
 
-    <b-row class="mx-auto schema mt-3">
-      <b-col class="mt-5">
+    <b-row class="d-flex justify-content-center schema mt-5">
+      <b-col class=" mt-5">
         <div class="col1">
           <span class="ml-2">0 changement d'eau </span>
           <br />
@@ -16,7 +16,7 @@
         </div>
       </b-col>
 
-      <b-col>
+      <b-col class="">
         <b-img
           id="schema-gif"
           class="mx-auto"
@@ -25,7 +25,7 @@
         />
       </b-col>
 
-      <b-col class="mt-5">
+      <b-col class=" mt-5">
         <div class="col2">
           <span class="ml-2"> Parlement Européen: </span>
           <br />
@@ -40,6 +40,30 @@
 </template>
 
 <style>
+
+@media all and (min-width: 319px) {
+  #title {
+    font-size: 8vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+
+  #margtop {
+  margin-top: 20%;
+}
+}
+
+@media all and (min-width: 768px) {
+  #title {
+    font-size: 3vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+  #margtop {
+  margin-top: 10%;
+}
+}
+
 h1 {
   font-family: 'Poppins-Bold';
   color: #3e602f;

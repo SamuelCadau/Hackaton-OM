@@ -1,10 +1,10 @@
 <template>
-  <div class="mt-5">
+  <div class="mt-5" id="margtop">
     <div class="text-center">
-      <h2>Galerie</h2>
+      <p id="title">Galerie</p>
     </div>
     <b-container>
-      <b-row class="mt-3 mb-3">
+      <b-row class="mt-5 mb-3">
         <div class="col-xl-4">
           <b-img rounded fluid src="../static/2.jpg"></b-img>
         </div>
@@ -49,6 +49,29 @@ export default {
 </script>
 
 <style scoped>
+
+@media all and (min-width: 319px) {
+  #title {
+    font-size: 8vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+  #margtop {
+  margin-top: 15% !important;
+}
+}
+
+@media all and (min-width: 768px) {
+  #title {
+    font-size: 3vw;
+    font-family: 'Poppins-bold';
+    color: #3e602f;
+  }
+  #margtop {
+  margin-top: 10% !important;
+}
+}
+
 h2 {
   font-family: 'Poppins-Medium';
 }
