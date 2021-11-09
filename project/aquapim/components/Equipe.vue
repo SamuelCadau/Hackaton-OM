@@ -3,7 +3,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     
     <b-container>
-      <div class="col-12 mt-4">
+      <div class="col-12 d-flex justify-content-center mt-4">
       <!-- MODIFICATION TITRE -->
       <p id="title">L'EQUIPE D'AQUAPIM</p>
     </div>

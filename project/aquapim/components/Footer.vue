@@ -1,26 +1,57 @@
 <!-- Ce fichier contient le code du bas de page !-->
 
 <template>
-  <div>
-    <b-container id="footer" fluid>
-      <b-row>
-        <b-col class="mt-3">
-          
-          <!-- Emplacement email de contact !-->
-          <b-row class="mx-auto"> <b-icon class="mr-2 mt-1" icon="envelope"></b-icon> <span>theophile.gallardo@gmail.com</span> </b-row>
-          <!-- Emplacement Numéro de téléphone !-->
-          
-          <b-row class="mx-auto"><b-icon class="mr-2 mt-1" icon="phone"></b-icon> <span></span>+33613296712</b-row>
-        </b-col>
-
-        <b-col class="mt-3"> 
-          <b-row> <span class="ml-auto mr-5"> <b-icon icon="building"> </b-icon> AQUAPIM, 69 rue du Rouet, 13008 MARSEILLE </span> </b-row>
-          <b-row><p> </p></b-row>
-        </b-col>
+  <div id="footer">
+    <div>
+      <!--       <h5 class="pt-4 text-center">Liens utiles</h5>
+ -->
+    </div>
+    <b-container fluid class="pt-3">
+      <b-row class="d-flex justify-content-around">
+        <b-row>
+          <b-col class="mt-3">
+            <b-col>
+              <!-- Emplacement email de contact !-->
+              <b-icon class="mr-2 mt-1" icon="envelope"></b-icon>
+              <span>theophile.gallardo@gmail.com</span>
+            </b-col>
+            <b-col>
+              <!-- Emplacement Numéro de téléphone !-->
+              <b-icon class="mr-2 mt-1" icon="phone"></b-icon>
+              <span>+33613296712</span>
+            </b-col>
+            <b-col>
+              <b-icon icon="building" class="mr-2 mt-1"> </b-icon>
+              <span>AQUAPIM, 69 rue du Rouet, 13008 MARSEILLE </span>
+            </b-col>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col xl="12" id="footerLinks" class="mt-3">
+            <b-col>
+              <a class="text-white" href="#concept">Notre concept</a>
+            </b-col>
+            <b-col>
+              <a class="text-white" href="#partenaires">Nos partenaires</a>
+            </b-col>
+            <b-col>
+              <a class="text-white" href="#aquaponie"
+                >Présentation de l'aquaponie</a
+              >
+            </b-col>
+            <b-col>
+              <a class="text-white" href="#equipe">L'équipe</a>
+            </b-col>
+            <b-col>
+              <a class="text-white" href="#contact">Nous rejoindre</a>
+            </b-col>
+          </b-col>
+        </b-row>
       </b-row>
-      <hr class="solid"/>
+
+      <hr class="solid" />
       <b-row>
-        <span class="mx-auto mb-2">Fait à CODE4MARSEILLE</span>
+        <small class="mx-auto mb-2">Copyright Anquapim - 2021</small>
       </b-row>
     </b-container>
   </div>
@@ -28,6 +59,9 @@
 
 
 <style scoped>
+#footerLinks {
+  font-family: 'Poppins-Medium';
+}
 #footer {
   background-color: rgb(65, 65, 65);
   bottom: 0;
