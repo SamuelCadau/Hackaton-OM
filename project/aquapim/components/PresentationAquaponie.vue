@@ -1,11 +1,11 @@
 <template>
-  <b-container id="margtop">
-    <b-row class="mt-3">
-      <p id="title" class="mx-auto">L'AQUAPONIE</p>
+  <b-container class="col-12" id="margtop">
+    <b-row class="d-flex justify-content-center mt-3">
+      <p id="title" class="">L'AQUAPONIE</p>
     </b-row>
 
-    <b-row class="col-12 d-flex justify-content-center mx-auto schema mt-4">
-      <b-col class="col-4 mt-5">
+    <b-row class="d-flex justify-content-center schema mt-5">
+      <b-col class=" mt-5">
         <div class="col1">
           <span class="ml-2">0 changement d'eau </span>
           <br />
@@ -15,7 +15,7 @@
         </div>
       </b-col>
 
-      <b-col class="col-4">
+      <b-col class="">
         <b-img
           id="schema-gif"
           class="mx-auto"
@@ -24,7 +24,7 @@
         />
       </b-col>
 
-      <b-col class="col-4 mt-5">
+      <b-col class=" mt-5">
         <div class="col2">
           <span class="ml-2"> Parlement Européen: </span>
           <br />
