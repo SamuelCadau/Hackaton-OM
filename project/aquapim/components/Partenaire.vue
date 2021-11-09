@@ -19,7 +19,7 @@
         >
           <template #footer>
             <div class="text-center">
-              <a href="#">Site</a>
+              <a href="https://www.epitech.eu/">Site</a>
             </div>
           </template>
         </b-card>
