@@ -1,5 +1,6 @@
 <template>
 <div id="aquaponie">
+<div  data-aos="fade-up" data-aos-duration="2000">
   <b-container class="col-12">
     <b-row class="d-flex justify-content-center mt-3">
       <p id="title" class="">L'AQUAPONIE</p>
@@ -37,7 +38,16 @@
     </b-row>
   </b-container>
   </div>
+  </div>
 </template>
+
+<script>
+import aosMixin from '~/mixins/aos.js'
+
+export default {
+  mixins: [aosMixin],
+}
+</script>
 
 <style>
 
