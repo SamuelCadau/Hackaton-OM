@@ -5,7 +5,7 @@
         </b-row>
 
         <b-row> 
-            <img src="~/static/Schema(2).svg?data" width="70" height="38" />
+            <img src="../static/schema.gif" width="70" height="38" />
         </b-row>
         
     </b-container>
