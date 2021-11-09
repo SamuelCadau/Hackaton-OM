@@ -27,7 +27,13 @@
 @font-face{
     font-family: "Poppins-Medium";
     src:local("Poppins-Medium"), url(../static/Poppins-Medium.ttf) format("truetype");
+    
+}
 
+@font-face{
+    font-family: "Poppins-Bold";
+    src:local("Poppins-Bold"), url(../static/Poppins-Bold.ttf) format("truetype");
+    
 }
 
 .nav{

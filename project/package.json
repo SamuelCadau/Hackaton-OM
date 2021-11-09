@@ -7,6 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@nuxtjs/svg-sprite": "^0.5.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/svg": "^0.3.0"
   }
 }
