@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12" id="margtop">
+    <div class="col-12" id="concept">
       <div class="col-12 d-flex justify-content-center mt-4 pb-3">
         <!-- MODIFICATION TITRE -->
         <p id="title">NOTRE CONCEPT</p>
@@ -29,8 +29,8 @@
     color: #3e602f;
   }
 
-  #margtop {
-  margin-top: 15%;
+  #concept {
+  margin-top: 10%;
 }
 }
 

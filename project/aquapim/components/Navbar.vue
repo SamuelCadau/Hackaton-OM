@@ -12,11 +12,12 @@
       </b-navbar-toggle>
       <b-collapse id="nav-menu" is-nav>
         <b-navbar-nav class="nav ml-auto" right>
-          <b-nav-item id="link1">Notre concept</b-nav-item>
-          <b-nav-item>Nos partenaires</b-nav-item>
-          <b-nav-item>Présentation de l'aquaponie</b-nav-item>
-          <b-nav-item>L'équipe</b-nav-item>
-          <b-nav-item>Nous rejoindre </b-nav-item>
+          <!--Contient les liens de navigations vers les différentes sections !-->
+          <b-nav-item href="#concept">Notre concept</b-nav-item>
+          <b-nav-item href="#partenaires">Nos partenaires</b-nav-item>
+          <b-nav-item href="#aquaponie" >Présentation de l'aquaponie</b-nav-item>
+          <b-nav-item href="#equipe">L'équipe</b-nav-item>
+          <b-nav-item href="#contact">Nous rejoindre </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

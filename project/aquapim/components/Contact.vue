@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 p-0" id="margtop">
+  <div class="col-12 p-0" id="contact">
     <div id="pad" class="col-12 d-flex justify-content-center mt-4 pb-md-3">
       <!-- MODIFICATION TITRE -->
       <p id="title">CONTACT</p>
@@ -67,7 +67,7 @@ export default {
     padding: 0;
     padding-bottom: 0;
   }
-  #margtop {
+  #contact {
   margin-top: 15%;
 }
 }
@@ -78,7 +78,7 @@ export default {
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-  #margtop {
+  #contact {
   margin-top: 10%;
 }
 }

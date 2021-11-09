@@ -1,4 +1,5 @@
 <template>
+<div id="aquaponie">
   <b-container>
     <b-row class="mt-3">
       <h1 class="mx-auto">L'AQUAPONIE</h1>
@@ -35,6 +36,7 @@
       </b-col>
     </b-row>
   </b-container>
+  </div>
 </template>
 
 <style>
