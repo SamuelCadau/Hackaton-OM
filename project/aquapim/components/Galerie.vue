@@ -2,7 +2,7 @@
   <div id="galerie">
     <div class="mt-5">
       <div class="text-center">
-        <p id="title">GALERIE</p>
+        <p id="title">Aquapim en image</p>
       </div>
       <b-container>
         <b-row class="mt-5 mb-3">

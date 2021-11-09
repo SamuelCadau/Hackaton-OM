@@ -1,5 +1,5 @@
 <template>
-  <div id="partenaires">²²
+  <div id="partenaires">
   <div data-aos="zoom-in" data-aos-duration="2000" class="col-12">
     <div class="col-12 d-flex justify-content-center mt-4 pb-3">
       <!-- MODIFICATION TITRE -->
@@ -32,7 +32,7 @@
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
       <div class="row" data-aos="slide-right"
       data-aos-duration="1500">
-      <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center" id="desccard">
+      <b-card-text class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center orderPartenaire" id="desccard">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
         </b-card-text>
         <b-card
@@ -41,7 +41,7 @@
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
-          class="text-center col-sm-12 col-md-4 col-lg-4"
+          class="text-center col-sm-12 col-md-4 col-lg-4 orderImage"
         >
           <template #footer>
             <div class="text-center">
@@ -136,6 +136,8 @@ p {
   #partenaires {
     margin-top: 20%;
   }
+
+  
 }
 
 @media all and (max-width: 426px) {
@@ -148,6 +150,12 @@ p {
   font-family: 'Poppins-light';
   font-size: 5vw;
 }
+.orderPartenaire{
+    order: 2;
+  }
+  .orderImage{
+    order: 1;
+  }
 }
 
 @media all and (min-width: 768px) {

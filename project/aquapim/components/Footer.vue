@@ -40,6 +40,9 @@
               >
             </b-col>
             <b-col>
+              <a class="text-white" href="#galerie">Aquapim en image</a>
+            </b-col>
+            <b-col>
               <a class="text-white" href="#equipe">L'équipe</a>
             </b-col>
             <b-col>
