@@ -9,6 +9,7 @@
 
     <PresentationAquaponie />
 
+    <Galerie />
     <Equipe />
     <Contact />
 
