@@ -1,5 +1,5 @@
 <template>
-<div id="aquaponie" data-aos="slide-left" data-aos-duration="1000">
+<div id="aquaponie" data-aos="fade-up" data-aos-duration="2000">
   <b-container class="col-12">
     <b-row class="d-flex justify-content-center mt-3">
       <p id="title" class="">L'AQUAPONIE</p>

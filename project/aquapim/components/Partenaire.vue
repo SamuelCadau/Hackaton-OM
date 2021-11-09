@@ -1,15 +1,28 @@
 <template>
-  <div class="col-12" id="partenaires">
+  <div data-aos="zoom-in" data-aos-duration="2000" class="col-12" id="partenaires">
     <div class="col-12 d-flex justify-content-center mt-4 pb-3">
       <!-- MODIFICATION TITRE -->
       <p id="title">NOS PARTENAIRES</p>
     </div>
 
-    <div id="cardborder" class="col-12 d-flex justify-content-center  justify-content-md-start mt-2 pb-3">
-        <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-        <div class="row">
+    <div
+      id="cardborder"
+      class="
+        col-12
+        d-flex
+        justify-content-center justify-content-md-start
+        mt-2
+        pb-3
+      "
+    >
+      <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
+      <div class="row"
+      data-aos="slide-left"
+      data-aos-duration="1500"
+      >
         <b-card
-          title="Ecole 1" id="titlecard"
+          title="Ecole 1"
+          id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
@@ -22,18 +35,37 @@
           </template>
         </b-card>
         <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
+          consequuntur omnis minima quaerat vero dignissimos odio labore
+          temporibus, quos facere iusto debitis odit?
         </b-card-text>
-        </div>
+      </div>
     </div>
-    <div id="cardborder" class="col-12 d-flex  justify-content-center justify-content-md-end  mt-4 pb-3">
+    <div
+      id="cardborder"
+      class="
+        col-12
+        d-flex
+        justify-content-center justify-content-md-end
+        mt-4
+        pb-3
+      "
+    >
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-      <div class="row">
-      <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+      <div class="row"
+      data-aos="slide-right"
+      data-aos-duration="1500"
+      >
+        <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
+          consequuntur omnis minima quaerat vero dignissimos odio labore
+          temporibus, quos facere iusto debitis odit?
         </b-card-text>
         <b-card
-          title="Ecole 2" id="titlecard"
+          title="Ecole 2"
+          id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
@@ -48,11 +80,24 @@
       </div>
     </div>
 
-    <div id="cardborder" class="col-12 d-flex  justify-content-center  justify-content-md-start  mt-4 pb-3">
+    <div
+      id="cardborder"
+      class="
+        col-12
+        d-flex
+        justify-content-center justify-content-md-start
+        mt-4
+        pb-3
+      "
+    >
       <!-- MODIFICATION TITRE (title="") | MODIFICATION IMAGE (modifier la destination de l'imgage dans img-src="")-->
-      <div class="row">
+      <div class="row"
+      data-aos="slide-left"
+      data-aos-duration="1500"
+      >
         <b-card
-          title="Ecole 3" id="titlecard"
+          title="Ecole 3"
+          id="titlecard"
           img-src="../static/logo.png"
           img-alt="Image"
           img-top
@@ -65,12 +110,23 @@
           </template>
         </b-card>
         <b-card-text class="col-sm-12 col-md-8 col-lg-8" id="desccard">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus assumenda deleniti praesentium totam corrupti voluptate consequuntur omnis minima quaerat vero dignissimos odio labore temporibus, quos facere iusto debitis odit?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          voluptatibus assumenda deleniti praesentium totam corrupti voluptate
+          consequuntur omnis minima quaerat vero dignissimos odio labore
+          temporibus, quos facere iusto debitis odit?
         </b-card-text>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import aosMixin from '~/mixins/aos.js'
+
+export default {
+  mixins: [aosMixin],
+}
+</script>
 
 <style scoped>
 @font-face {
@@ -118,8 +174,8 @@ p {
   }
 
   #partenaires {
-  margin-top: 20%;
-}
+    margin-top: 20%;
+  }
 }
 
 @media all and (max-width: 426px) {
@@ -137,7 +193,7 @@ p {
     color: #3e602f;
   }
   #partenaires {
-  margin-top: 10%;
-}
+    margin-top: 10%;
+  }
 }
 </style>
