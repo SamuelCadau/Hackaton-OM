@@ -1,5 +1,9 @@
 <template>
-  <Tutorial/>
+  <div>
+    <Concept />
+    <Partenaire />
+    <Contact />
+  </div>
 </template>
 
 <script>
