@@ -23,7 +23,7 @@
         <form
           method="POST"
           data-email="example@email.net"
-          action="https://script.google.com/macros/s/AKfycbwcGRhRycBq9cMukiUdkwcAOx9_8819C0hd5C4LKdg1FAhGlFJ0np9qNn3XTxqzQOpD7w/exec"
+          action="https://script.google.com/macros/s/AKfycbxKefaW86DujD7FYhEOSaCy-nBB2OwYI9GdsNVxh75o5BdK0eeBN100mLaZVeU-tQYRVg/exec"
         >
           <div class="input-group d-flex justify-content-center">
             <input
