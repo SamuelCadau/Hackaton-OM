@@ -14,6 +14,10 @@
           <h3 class="p-3">Theo</h3>
 
           <b-img fluid rounded src="../static/pdp.jpg" class="p-3"></b-img>
+          <p class="détails">
+            Développement commercial <br>
+            Chargé de partenariats
+          </p>
         </div>
 
         <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
@@ -21,12 +25,20 @@
           <h3 class="p-3">Guillaume</h3>
 
           <b-img fluid rounded src="../static/pdp2.jpg" class="p-3"></b-img>
+          <p class="détails">
+            Développement Produit <br>
+            R&D
+          </p>
         </div>
         <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
           <!-- Modification du nom -->
           <h3 class="p-3">Domitille</h3>
 
           <b-img fluid rounded src="../static/pdp3.jpg" class="p-3"></b-img>
+          <p class="détails">
+            Gestion de projet <br>
+            Formation RH - RSE
+          </p>
         </div>
       </b-row>
     </b-container>
@@ -44,6 +56,10 @@ export default {
 </script>
 
 <style scoped>
+.détails{
+  font-family: 'Poppins-Light';
+
+}
 h3 {
   font-family: 'Poppins-Light';
 
