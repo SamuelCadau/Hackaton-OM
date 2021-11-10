@@ -1,7 +1,7 @@
 # eco4marseille-nodejs
 Projet de site vitrine pour Aquapim , réalisé lors du Hackaton CODE4MARSEILLE au Vélodrome en Novembre 2021.
 
-Réalisé par Félix Portier, Samuel Cadau, Guillaume Bleyer, étudiants en 3ème année à Epitech Marseille.
+Réalisé par Félix Portier, Samuel Cadau, Guillaume Bleyer, étudiants en 3ème année à Epitech Marseille et Samir Soogun , étudiant à simplon Marseille.
 
 Technologie: Nuxt.js
 
