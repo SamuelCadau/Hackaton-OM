@@ -12,8 +12,7 @@
       <div class="text-center col-12">
         <!-- MODIFICATION TEXTE CONTACT -->
         <p id="paraContact" class="col-12 mt-5">
-          Si vous souhaitez être informés de nos actualités, conseils bien-être
-          et nouveaux produits, nous vous invitons à renseigner votre adresse
+          Si vous souhaitez être informés de nos actualités, nous vous invitons à renseigner votre adresse
           e-mail. <br />
           Nous nous engageons à ne jamais communiquer vos données personnelles.
         </p>
