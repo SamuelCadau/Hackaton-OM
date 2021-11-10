@@ -10,17 +10,20 @@
     </div>
       <b-row class="justify-content-around">
         <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+          <!-- Modification du nom -->
           <h3 class="p-3">Theo</h3>
 
           <b-img fluid rounded src="../static/pdp.jpg" class="p-3"></b-img>
         </div>
 
         <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+          <!-- Modification du nom -->
           <h3 class="p-3">Guillaume</h3>
 
           <b-img fluid rounded src="../static/pdp2.jpg" class="p-3"></b-img>
         </div>
         <div data-aos="zoom-in" class="col-12 col-sm-12 col-xl-4 col-md-4 mt-4 text-center">
+          <!-- Modification du nom -->
           <h3 class="p-3">Domitille</h3>
 
           <b-img fluid rounded src="../static/pdp3.jpg" class="p-3"></b-img>
