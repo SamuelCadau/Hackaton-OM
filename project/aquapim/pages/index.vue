@@ -1,18 +1,13 @@
 <template>
-  <div style="overflow-x: hidden;">
+  <div style="overflow-x: hidden">
     <Navbar />
-
     <Zoneflot />
-    
     <Concept />
     <Partenaire />
-
     <PresentationAquaponie />
-
     <Galerie />
     <Equipe />
     <Contact />
-
     <Footer />
   </div>
 </template>
@@ -22,5 +17,4 @@ export default {}
 </script>
 
 <style scoped>
-  
 </style>
