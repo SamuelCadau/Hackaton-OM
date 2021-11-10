@@ -38,7 +38,7 @@
         </b-row>
 
         <b-row class="mt-5 ">
-          <b-col class="desc px-5">
+          <b-col class=" text-center desc px-5">
             L'aquaponie est un système qui unit la culture de plante et
             l'élevage de poissons ; les plantes sont parfois cultivées sur des
             billes d'argile, pouvant être irriguées en circuit fermé par de
@@ -74,6 +74,11 @@ export default {
   #aquaponie {
     margin-top: 20%;
   }
+  .desc {
+  font-size: 5vw;
+  font-family: 'Poppins-Medium';
+  margin-bottom: 80px;
+}
 }
 
 @media all and (min-width: 768px) {
@@ -85,6 +90,10 @@ export default {
   #aquaponie {
     margin-top: 10%;
   }
+  .desc {
+  font-size: 1.2vw;
+  font-family: 'Poppins-Medium';
+}
 }
 
 h1 {
@@ -103,11 +112,7 @@ h1 {
   border-right: groove;
 }
 
-.desc {
 
-  
-  font-family: 'Poppins-Medium';
-}
 
 .schema {
   font-family: 'Poppins-Medium';
