@@ -6,4 +6,4 @@ Réalisé par Félix Portier, Samuel Cadau, Guillaume Bleyer, étudiants en 3èm
 Technologie: Nuxt.js
 
 pour lancer le projet: ``` Ce mettre dans le dossier Aquapim 
-                           npm run dev ```
+                          et lancer  npm run dev ```
