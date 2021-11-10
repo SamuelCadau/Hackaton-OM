@@ -1,43 +1,57 @@
 <template>
-<div id="aquaponie">
-<div  data-aos="fade-up" data-aos-duration="2000">
-  <b-container class="col-12">
-    <b-row class="d-flex justify-content-center mt-3">
-      <p id="title" class="">L'AQUAPONIE</p>
-    </b-row>
+  <div id="aquaponie">
+    <div data-aos="fade-up" data-aos-duration="2000">
+      <b-container class="col-12">
+        <b-row class="d-flex justify-content-center mt-3">
+          <p id="title" class="">L'AQUAPONIE</p>
+        </b-row>
 
-    <b-row class="d-flex justify-content-center schema mt-5 ">
-      <b-col class=" col-md-4">
-        <div class="col1 col-12">
-          <span class="ml-2">0 changement d'eau </span>
-          <br />
-          <span class="ml-2">0 intrant chimique </span>
-          <br />
-          <span class="ml-2"> Autonomie = Peu d'entretien </span>
-        </div>
-      </b-col>
+        <b-row class="d-flex justify-content-center schema mt-5">
+          <b-col class="col-md-4">
+            <div class="col1 col-12">
+              <span class="ml-2">0 changement d'eau </span>
+              <br />
+              <span class="ml-2">0 intrant chimique </span>
+              <br />
+              <span class="ml-2"> Autonomie = Peu d'entretien </span>
+            </div>
+          </b-col>
 
-      <b-col class="col-12 col-md-4">
-        <b-img
-          id="schema-gif"
-          class="mx-auto"
-          src="../static/schema.gif"
-          fluid-grow
-        />
-      </b-col>
+          <b-col class="col-12 col-md-4">
+            <b-img
+              id="schema-gif"
+              class="mx-auto"
+              src="../static/schema.gif"
+              fluid-grow
+            />
+          </b-col>
 
-      <b-col class="d-flex align-items-end col-md-4">
-        <div class="col2">
-          <span> Parlement Européen: </span>
-          <br />
-          <span >
-            "Une des 10 technologies qui pourraient changer nos vies"
-          </span>
-        </div>
-      </b-col>
-    </b-row>
-  </b-container>
-  </div>
+          <b-col class="d-flex align-items-end col-md-4">
+            <div class="col2">
+              <span> Parlement Européen: </span>
+              <br />
+              <span>
+                "Une des 10 technologies qui pourraient changer nos vies"
+              </span>
+            </div>
+          </b-col>
+        </b-row>
+
+        <b-row class="mt-5 ">
+          <b-col class="desc px-5">
+            L'aquaponie est un système qui unit la culture de plante et
+            l'élevage de poissons ; les plantes sont parfois cultivées sur des
+            billes d'argile, pouvant être irriguées en circuit fermé par de
+            l'eau provenant d'aquarium où sont élevés les poissons. Des
+            bactéries aérobies issues du substrat transforment l'ammoniaque
+            contenu dans les urines et déjections des poissons en nutriments
+            (nitrates notamment), directement assimilable par la végétation.
+            L'eau purifiée retourne ensuite dans l'aquarium.
+          </b-col>
+
+        </b-row>
+      </b-container>
+    </div>
   </div>
 </template>
 
@@ -50,7 +64,6 @@ export default {
 </script>
 
 <style>
-
 @media all and (min-width: 319px) {
   #title {
     font-size: 8vw;
@@ -59,8 +72,8 @@ export default {
   }
 
   #aquaponie {
-  margin-top: 20%;
-}
+    margin-top: 20%;
+  }
 }
 
 @media all and (min-width: 768px) {
@@ -70,8 +83,8 @@ export default {
     color: #3e602f;
   }
   #aquaponie {
-  margin-top: 10%;
-}
+    margin-top: 10%;
+  }
 }
 
 h1 {
@@ -88,6 +101,12 @@ h1 {
 .col2 {
   border-bottom: groove;
   border-right: groove;
+}
+
+.desc {
+
+  
+  font-family: 'Poppins-Medium';
 }
 
 .schema {
