@@ -3,8 +3,6 @@
 <template>
   <div id="footer">
     <div>
-      <!--       <h5 class="pt-4 text-center">Liens utiles</h5>
- -->
     </div>
     <b-container fluid class="pt-3">
       <b-row class="d-flex justify-content-around">
@@ -22,12 +20,14 @@
             </b-col>
             <b-col>
               <b-icon icon="building" class="mr-2 mt-1"> </b-icon>
+              <!-- Emplacement Adresse !-->
               <span>AQUAPIM, 69 rue du Rouet, 13008 MARSEILLE </span>
             </b-col>
           </b-col>
         </b-row>
         <b-row>
           <b-col xl="12" id="footerLinks" class="mt-3">
+            <!-- Emplacement Des Sections de la Page !-->
             <b-col>
               <a class="text-white" href="#concept">Notre concept</a>
             </b-col>
