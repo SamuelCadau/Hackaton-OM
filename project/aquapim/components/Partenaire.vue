@@ -1,6 +1,5 @@
 <template>
   <div id="partenaires">
-    ²²
     <div data-aos="zoom-in" data-aos-duration="2000" class="col-12">
       <div class="col-12 d-flex justify-content-center mt-4 pb-3">
         <!-- MODIFICATION TITRE SECTION -->
@@ -54,7 +53,7 @@
         <div class="row" data-aos="slide-right" data-aos-duration="1500">
           <!-- MODIFICATION DESCRIPTION (Entre les balises b-card-text)-->
           <b-card-text
-            class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center"
+            class="col-sm-12 col-md-8 col-lg-8 d-flex align-items-center orderPartenaire"
             id="desccard"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
@@ -69,7 +68,7 @@
             img-src="../static/logo.png"
             img-alt="Image"
             img-top
-            class="text-center col-sm-12 col-md-4 col-lg-4"
+            class="text-center col-sm-12 col-md-4 col-lg-4 orderImage"
           >
             <template #footer>
               <div class="text-center">
@@ -188,6 +187,12 @@ p {
   #desccard {
     font-family: 'Poppins-light';
     font-size: 5vw;
+  }
+  .orderPartenaire{
+    order: 2;
+  }
+  .orderImage{
+    order: 1;
   }
 }
 
