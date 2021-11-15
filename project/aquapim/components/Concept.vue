@@ -1,26 +1,37 @@
 <template>
-    <div class="col-12" id="margtop">
+<div id="concept">
+    <div data-aos="flip-up" data-aos-duration="1500" class="col-12" id="">
       <div class="col-12 d-flex justify-content-center mt-4 pb-3">
         <!-- MODIFICATION TITRE -->
         <p id="title">NOTRE CONCEPT</p>
       </div>
 
-      <div class="col-10 offset-1 d-flex justify-content-center mt-5">
+      <div class="col-12 d-flex justify-content-center mt-2">
         <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
         <img class="img-fluid" src="../static/Concept.png" >
       </div>
     </div>
-
+</div>
 </template>
 
-<style>
+
+<script>
+import aosMixin from '~/mixins/aos.js'
+
+export default {
+  mixins: [aosMixin],
+}
+</script>
+
+
+
+<style scoped>
 
 @font-face {
-    font-family: "Poppins-bold";
-    src: local("Poppins-bold"),     url(../static/font/Poppins-Bold.ttf) format("truetype");
+  font-family: 'Poppins-bold';
+  src: local('Poppins-bold'),
+    url(../static/font/Poppins-Bold.ttf) format('truetype');
 }
-
-
 
 @media all and (min-width: 319px) {
   #title {
@@ -29,21 +40,19 @@
     color: #3e602f;
   }
 
-  #margtop {
-  margin-top: 25%;
+  #concept {
+  margin-top: 10%;
 }
 }
 
 @media all and (min-width: 768px) {
   #title {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Poppins-bold';
     color: #3e602f;
   }
-
   #margtop {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 }
-
 </style>

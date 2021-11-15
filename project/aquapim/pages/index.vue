@@ -1,18 +1,20 @@
 <template>
-  <div>
-    <Navbar/>
-
+  <div style="overflow-x: hidden">
+    <Navbar />
     <Zoneflot />
+    <Concept />
+    <Partenaire />
+    <PresentationAquaponie />
+    <Galerie />
     <Equipe />
-
-    <Concept/>
-    <Partenaire/>
-    <Contact/>
-
-    <Footer/>
+    <Contact />
+    <Footer />
   </div>
 </template>
 
 <script>
 export default {}
 </script>
+
+<style scoped>
+</style>
