@@ -8,7 +8,7 @@
 
       <div class="col-12 d-flex justify-content-center mt-2">
         <!-- MODIFICATION IMAGE (modifier la destination de l'imgage dans src="") -->
-        <img class="img-fluid" src="../static/Concept.png" >
+        <img class="img-fluid" src="../static/Concept.png" alt="image du concept d'aquapim">
       </div>
     </div>
 </div>

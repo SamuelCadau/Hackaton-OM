@@ -9,15 +9,15 @@
         <b-row class="mt-5 mb-3">
           <div data-aos="fade-left" data-aos-duration="2000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/2.jpg"></b-img>
+            <b-img rounded fluid src="../static/2.jpg" alt="Aquapim en action dans une classe"></b-img>
           </div>
           <div data-aos="zoom-in" data-aos-duration="2000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/4.jpg"></b-img>
+            <b-img rounded fluid src="../static/4.jpg" alt="Aquarium"></b-img>
           </div>
           <div data-aos="fade-right" data-aos-duration="2000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/5.jpg"></b-img>
+            <b-img rounded fluid src="../static/5.jpg" alt="Fraise issue de l'aquaponie"></b-img>
           </div>
         </b-row>
 
@@ -39,15 +39,15 @@
         <b-row class="mt-3 mb-3">
           <div data-aos="fade-left" data-aos-duration="1000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/3.jpg"></b-img>
+            <b-img rounded fluid src="../static/3.jpg" alt="Aquapim en action dans une classe"></b-img>
           </div>
           <div data-aos="fade-up" data-aos-duration="2000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/9.jpg"></b-img>
+            <b-img rounded fluid src="../static/9.jpg" alt="Aquapim en action dans une classe"></b-img>
           </div>
           <div data-aos="fade-right" data-aos-duration="1000" class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mb-4">
             <!-- Modification de la photo dans "src" -->
-            <b-img rounded fluid src="../static/7.jpg"></b-img>
+            <b-img rounded fluid src="../static/7.jpg" alt="Enfants en activités"></b-img>
           </div>
         </b-row>
       </b-container>

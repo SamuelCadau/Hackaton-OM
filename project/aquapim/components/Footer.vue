@@ -2,8 +2,6 @@
 
 <template>
   <div id="footer">
-    <div>
-    </div>
     <b-container fluid class="pt-3">
       <b-row class="d-flex justify-content-md-around">
         <b-row>
